@@ -65,7 +65,7 @@ print(alp) # ['a', 'b', 'c']
 num = [1,2,3,4,5]
 name = "영 오"
 print(len(num)) # 5 | 리스트원소의 갯수
-print(len(name)) # 2 | 문자열의 길이, 띄어쓰기도 카운트
+print(len(name)) # 3 | 문자열의 길이, 띄어쓰기도 카운트
 
 # del: 리스트에서 특정 요소를 삭제하는 연산자
 num = [1,2,3,4,5]
