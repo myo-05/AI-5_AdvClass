@@ -43,7 +43,7 @@ child process들은 각기 다른 process 과정임을 알 수 있고, 시스템
 # ============2. 각기 다른 작업을 하는 프로세스 생성=============
 
 def bar():
-    print('This is bar:', os.getpid())
+    print('This is bar:', os.getpids())
 
 def baz():
     print('This is baz:', os.getpid())
